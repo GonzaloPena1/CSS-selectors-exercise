@@ -1,0 +1,29 @@
+/* Element selectors (h1) DOESN'T target anything */
+
+h1 {
+  color: red;
+  text-decoration: dotted;
+}
+
+/* Class selectors targeting <p> element with class="heading1 bold" (content 1, 4 and 5)*/
+.heading1 {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Class selectors targeting <p> element with class="heading3" (content 3) */
+.heading3 {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Class selectors targeting targeting <p> with class="bold" (content 6) */
+.bold {
+  font-weight: bold;
+}
+
+/* ID selectors targeting <p> with id="title" (content 6) */
+#title {
+  color: yellow;
+  text-decoration: underline;
+}
